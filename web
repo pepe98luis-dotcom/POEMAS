@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Poemas Anónimos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .poema {
+      background: white;
+      max-width: 700px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-top: 0;
+      color: #444;
+    }
+    .boton {
+      display: inline-block;
+      padding: 10px 15px;
+      background: #0070f3;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Poemas y Frases Anónimas</h1>
+    <p>Descarga mis escritos por un precio simbólico</p>
+  </header>
+
+  <div class="poema">
+    <h2>Poema 1</h2>
+    <p>
+      En el silencio de la noche,<br>
+      mis palabras buscan refugio,<br>
+      versos que nadie conoce,<br>
+      pero que todos sienten.
+    </p>
+    <!-- Botón de compra con PayPal -->
+    <a class="boton" href="https://www.paypal.com/buy?token=TU_TOKEN_DE_PAGO" target="_blank">Comprar y Descargar</a>
+  </div>
+
+  <div class="poema">
+    <h2>Poema 2</h2>
+    <p>
+      La brisa acaricia mi alma,<br>
+      como un suspiro eterno,<br>
+      y en cada frase escondida,<br>
+      dejo mi ser anónimo.
+    </p>
+    <a class="boton" href="https://www.paypal.com/buy?token=TU_TOKEN_DE_PAGO" target="_blank">Comprar y Descargar</a>
+  </div>
+
+  <footer>
+    © 2026 Poemas Anónimos
+  </footer>
+</body>
+</html> 
